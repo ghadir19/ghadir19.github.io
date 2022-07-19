@@ -1,0 +1,50 @@
+html,body{
+height: 100%;
+width: 100%;
+}
+
+
+
+body { 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+h1{
+	color: white;
+font-family: 'Cormorant SC', serif;
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Playfair Display', serif;
+text-transform: uppercase;
+font-size: 3.5rem;
+}
+.btn{
+text-transform: uppercase;
+padding: 1rem 1.5rem;
+border-radius: 300px;
+font-weight: 700;
+}
+.btn-primary:hover{
+background-color: black;
+color: red;
+border-color: white;
+border-width: 4px;
+}
+hr{
+color: white;
+border-width: 3px;
+max-width: 65px;
+}
+.container{
+height:100%;
+}
+.buffer{
+height: 10rem;
+}
